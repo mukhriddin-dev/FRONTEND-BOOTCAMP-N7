@@ -5,47 +5,53 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LESSON 2</title>
+
+
+        <style>
+
+            h1 {
+                color: red;
+                text-align: center;
+                background-color: lime;
+            }
+
+            .backend {
+                background-color: deepskyblue;
+                color: white;
+            }
+
+            .text {
+                background-color: blue;
+                color: white;
+                text-align: right;
+            }
+
+            .card{
+                width: 300px;
+                height: 500px;
+                background-color: #c8c8c8;
+            }
+            .card-text{
+                text-align: justify;
+            }
+        </style>
+
     </head>
+
     <body>
 
-        <!-- header start -->
-        <header style="background-color: orange;">
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-        <!-- header end -->
-
-        <main>
-            <!-- intro section started -->
-            <section style="height: 800px; background-color: aquamarine;">
-                <h1>INTRO SECTION</h1>
-            </section>
-
-            <!-- about section started -->
-
-            <section style="height: 800px; background-color: rgb(127, 131, 255);">
-                <h2>About SECTION</h2>
-            </section>
+        <h1 class="text">FRONTEND DEVELOPER</h1>
+        <h1 class="backend">BACKEND DEVELOPER</h1>
+        <img src="https://picsum.photos/id/243/300/200" alt="rasm">
 
 
-            <!-- service section started -->
-            <section style="height: 800px; background-color: rgb(255, 127, 236);">
-                <h2>Service SECTION</h2>
-            </section>
-
-        </main>
-
-
-        <footer style="background-color: darkgreen; color:white; height: 80px; text-align: center; display:flex; align-items: center; justify-content: center;">
-            <p>2023</p>
-        </footer>
-
+        <section class="wrapper">
+            <div class="card">
+                <img src="https://picsum.photos/id/321/300/240" alt="rasm">
+                <h2 class="title">Card title</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam omnis eum repellat quibusdam obcaecati? Iste quas similique eos ipsum quaerat, consectetur delectus.</p>
+            </div>
+        </section>
 
     </body>
 </html>
