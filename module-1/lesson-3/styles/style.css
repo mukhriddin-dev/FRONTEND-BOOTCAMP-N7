@@ -65,7 +65,33 @@ header {
 /* viewport height */
 
 .wrapper{
-    width: 10rem;
+    width: 100%;
     height: 50vh;
-    background-color: coral;
+    border:  1px solid #333;
+    margin-top: 30px;
+
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 15px silver;
+    float: left;
+    margin: 40px;
+    padding-bottom: 12px;
+}
+
+.card-body{
+    padding: 12px;
+}
+
+.card-body  button{
+   float: right;
+   background-color:red;
+   padding: 6px 12px;
+   color:#fff;
+}
+
+button{
+    background-color: lime;
 }

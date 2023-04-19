@@ -10,6 +10,7 @@
 1. box-shadow
 2. display:block , inline , inline-block, float
 3. cssda ranglar va o'lchamlar (vw,vh, rem , % , px  . . . . )
-4. img , picture 
 5. retina rasmlar & figma
 6. Github reputation
+
+** CARD practices
