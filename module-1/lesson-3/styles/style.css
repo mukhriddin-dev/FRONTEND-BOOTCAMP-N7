@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+/* ------------ HEADER ---------- */
+header {
+    background-color: crimson;
+    color: white;
+    width: 100%;
+}
+
+.list{
+    display:inline-block;
+}
+
+.logo{
+    color:#fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.item {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#link{
+    text-decoration: underline;
+}
+
+.link {
+    color: white;
+    text-decoration:none !important;
+}
+/* ------------ HEADER  END---------- */
+
+
+/* ------------ MAIN ---------- */
+
+/* HEX , RGB  -> RED 255 , GREEN  255,  BLUE 255  */
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #2ea115;
+    margin: 100px 40px 100px 200px;
+    border-radius: 20px;
+    border: 4px dashed orange;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    display: block;
+    float:left;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* viewport width */
+/* viewport height */
+
+.wrapper{
+    width: 10rem;
+    height: 50vh;
+    background-color: coral;
+}
