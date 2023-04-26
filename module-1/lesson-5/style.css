@@ -63,4 +63,49 @@ a:nth-child(1){
 
 /* hover , active , focus , visited , nth */
 /* transition ->    */
-/* ::after , ::before , ::selection , ::placeholder , ::content  */
+/* ::first-letter , ::first-line,  ::after , ::before , ::selection , ::placeholder , content  */
+
+
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title::before{
+    content: 'OK';
+}
+
+/* .title::after{
+    content: " BACKEND";
+    color:blue;
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    display: block;
+} */
+
+
+/* .title::first-letter{
+    font-size: 45px;
+    color:red;
+} */
+
+
+.text::first-line{
+    color:red;
+}
+
+
+span{
+    color:green;
+}
+
+
+.text::selection{
+    background-color:deeppink;
+    font-size: 25px !important;
+    color:yellow;
+   
+}
