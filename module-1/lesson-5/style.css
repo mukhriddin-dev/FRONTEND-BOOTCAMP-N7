@@ -4,108 +4,68 @@
     box-sizing: border-box;
 }
 
-.box{
-    width: 500px;
-    height: 300px;
-    background-color:green;
-    margin: 50px auto;
-    /* transition-property:all;
-    transition-duration: 1s;
-    transition-delay: 0s;
-    transition-timing-function: ease; */
-    transition:  all 1s ease;
+header{
+    background-color: crimson;
+    width: 100%;
+    height: auto;
 }
 
-
-.box:hover{
-    background-color: lime;
-    border-radius: 30px;
-    width: 200px;
-    height: 200px;
-}
-
-/* .box:active{
- background-color: red;
-} */
-
-.box:focus{
-background-color: blue;
-}
-
-
-input{
-    width: 400px;
-    height: 50px;
+.container{
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.nav__logo{
+    font-size: 24px;
+    color:#fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav > .nav__list{
+    display: flex;
+    column-gap: 5rem;
+    list-style-type:none;
+}
+
+
+.nav > .nav__list > .nav__list--item{
+    text-transform: uppercase;
+    
+}
+
+.nav > .nav__list > .nav__list--item::after{
+    content:"";
     display: block;
-}
-
-input:focus{
-    border-radius: 25px;
-    color:green;
-    transition:  all 1s ease;
-}
-
-input::placeholder{
-    color:red;
-}
-
-a:visited{
-    color:rgb(255, 104, 16);
-}
-
-a:nth-child(1){
-    background-color: aqua;
-    padding: 10px;
-    color:red;
+    width: 0%;
+    height: 2px;
+    background-color:transparent;
+    transition: all 0.5s ease;
 }
 
 
-/* hover , active , focus , visited , nth */
-/* transition ->    */
-/* ::first-letter , ::first-line,  ::after , ::before , ::selection , ::placeholder , content  */
-
-
-
-.title{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.title::before{
-    content: 'OK';
-}
-
-/* .title::after{
-    content: " BACKEND";
-    color:blue;
-    margin-right: 50px;
-    width: 200px;
-    height: 200px;
-    background-color: dodgerblue;
+.nav > .nav__list > .nav__list--item:hover::after{
+    content:"";
     display: block;
-} */
-
-
-/* .title::first-letter{
-    font-size: 45px;
-    color:red;
-} */
-
-
-.text::first-line{
-    color:red;
+    width: 100%;
+    height: 2px;
+    background-color:#fff;
 }
 
 
-span{
-    color:green;
+.nav .nav__list .nav__list--item .nav__list--item-link{
+    color:#fff;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 
-.text::selection{
-    background-color:deeppink;
-    font-size: 25px !important;
-    color:yellow;
-   
-}
+
