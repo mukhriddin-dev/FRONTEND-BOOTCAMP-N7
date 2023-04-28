@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+  
 }
 
 .wrapper{
@@ -16,6 +17,16 @@ body{
     box-shadow:  0 0 12px #3333;
     margin: 50px auto;
     padding: 40px;
+    background-color:red;
+    background: #8a2387;
+    background: -webkit-linear-gradient(117deg, #8a2387 0%, #e94057 50%, #f27121 100%);
+    background: linear-gradient(117deg, #8a2387 0%, #e94057 50%, #f27121 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+
+    
 }
 
 .wrapper h2{
@@ -89,4 +100,33 @@ input[type="checkbox"]{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+
+
+
+.wrapper_2{
+    width: 80%;
+    margin:50px auto;
+    height: 100vh;
+    background-image: url(https://picsum.photos/id/310/2500/2600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+.table{
+    min-width: 600px;
+    margin:  50px auto;
+    /* table-layout: fixed; */
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+}
+
+tbody tr:hover{
+    background-color: #fff;
 }
