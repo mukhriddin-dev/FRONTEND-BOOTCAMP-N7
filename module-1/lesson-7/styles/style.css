@@ -89,4 +89,43 @@ header{
 }
 
 
+/* custom input */
 
+.wrapper{
+    padding: 120px;
+}
+
+input[type="checkbox"]{
+    width: 40px;
+    height: 19px;
+    appearance: none;
+    border: 1px solid #575757;
+    border-radius: 15px;
+    background-color: #ffc1c1;
+}
+
+input[type="checkbox"]::after{
+    content:"";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 89);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+input[type="checkbox"]:checked:after{
+    content:"";
+    width: 17px;
+    height: 17px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: lime;
+    display: block;
+}
+
+input[type="checkbox"]:checked{
+    background-color:rgb(206, 247, 247);
+}
+
+    
