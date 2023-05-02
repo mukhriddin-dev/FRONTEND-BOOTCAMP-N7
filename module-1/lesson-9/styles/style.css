@@ -32,7 +32,8 @@ header {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: #fff;
+  background-color: #0000009e;
+  backdrop-filter: blur(110px);
 }
 
 .nav {
