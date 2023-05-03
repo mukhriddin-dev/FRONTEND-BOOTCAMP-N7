@@ -1,28 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta
-        name="viewport" content="width=device-width, initial-scale=1.0">
+        name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- favicon -->
-        <link rel="icon" href="./assets/icons/faviocon.png">
+        <link rel="icon" href="./assets/icons/faviocon.png"/>
         <title>Remindme</title>
         <!-- Normalize CSS -->
-        <link rel="stylesheet" href="./styles/normalize.css">
+        <link
+        rel="stylesheet" href="./styles/normalize.css"/>
         <!-- Poppins and Nunito font CDN -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
         <!-- main css -->
-        <link rel="stylesheet" href="./styles/style.css">
-
+        <link rel="stylesheet" href="./styles/style.css"/>
     </head>
     <body>
+        <!-- --------------- HEADER START --------------- -->
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav__list">
 
+                        <li class="nav__list--item">
+                            <a href="#" class="nav__list--item-link">
+                                <img src="./assets/icons/logo.svg" alt="logo" class="logo"/>
+                            </a>
+                        </li>
 
+                        <li class="nav__list--item">
+                            <ul class="inner-list">
+                                <li class="item">
+                                    <a href="#" class="link">link</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link">link</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="link">link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
+                    <button class="nav__btn">About App</button>
+                </nav>
+            </div>
+        </header>
+        <!-- --------------- HEADER END --------------- -->
+        <main>
+            <section id="intro">
+                <div class="container">
+                    <div class="wrapper">
 
+                        <div class="left">
+                            <h1 class="title">Manage Schedule and Task Easy</h1>
+                            <p class="text">
+                                Create and organize schedule and task deadline become better,
+                                                                                                                easy manage and certainly no longer lagging behind schedule of
+                                                                                                                activities and task
+                            </p>
+                            <button class="btn">Download App</button>
+                        </div>
 
+                        <div class="right">
+                            <img src="./assets/icons/phone.png" alt="app layout" class="phone">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
