@@ -1,0 +1,178 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #2d76f9;
+  --main-bg: #d6e5fd;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  animation-name: boxAnimate;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes boxAnimate {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translate(50vw, 0);
+    background-color: blue;
+  }
+
+  50% {
+    transform: translate(50vw, 50vh);
+    background-color: aqua;
+  }
+
+  75% {
+    transform: translate(0, 50vh);
+    background-color: orangered;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    background-color: crimson;
+  }
+}
+
+.loader {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  border-bottom: 8px rgb(7, 193, 255) solid;
+  border-top: 8px rgb(0, 0, 0) solid;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  animation-name: loader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.loader span {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translateX(0);
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(120deg);
+  }
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://picsum.photos/id/221/2200/1200");
+  padding-top: 600px;
+  background-attachment: fixed;
+}
+
+.title {
+  font-size: 120px;
+  position: absolute;
+  top: 60px;
+  left: 320px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 4px;
+}
+
+#hero {
+  width: 100vw;
+  height: 150vh;
+  background-image: url("https://picsum.photos/id/121/2200/1200");
+  padding-top: 600px;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://picsum.photos/id/421/2200/1200");
+  padding-top: 600px;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(45deg, orange, yellow, red, blue, green);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+
+.card {
+  width: 300px;
+  max-height: 400px;
+  background-color: #fff;
+  margin: 40px auto;
+  border: 2px solid #000;
+  padding: 10px;
+  overflow-y: scroll;
+  box-shadow: inset 10px 10px 20px black ,  inset 10px 10px 20px rgb(255, 234, 139);
+}
+
+.card::-webkit-scrollbar-track {
+  background-image: linear-gradient(45deg, orange, yellow, red, blue, green);
+}
+
+.card:hover::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
