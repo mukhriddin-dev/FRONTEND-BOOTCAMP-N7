@@ -1,0 +1,225 @@
+#intro {
+    width: 100%;
+    padding-top: 85px;
+    background-image: url("../../assets/image/bg-hero-illustration.1d0afd66.svg.svg");
+    background-repeat: no-repeat;
+    background-position: 70% 130px;
+    background-color: #F1F0EE;
+    min-height: 589px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 165px;
+        
+
+        img{
+            position: relative;
+            top: 40px;
+            left: -60px;
+        }
+
+        &__text {
+            min-width: 325px;
+            h1 {
+                font-family: 'lato-bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 56px;
+                letter-spacing: -0.8px;
+
+                span {
+                    color: $bg-gold;
+                    display: block;
+                }
+            }
+
+            p {
+                font-family: 'lato-semibold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: -0.36px;
+                color: #607987;
+            }
+
+
+            button {
+                margin-top: 70px;
+                padding: 13px 47.8px 13px 46px;
+                background: #BA8D5B;
+                border-radius: 100px;
+                color:#fff;
+                border:none;
+                border: 2px solid transparent;
+                font-family: 'lato-bold';
+                font-size: 16px;
+                transition: all 0.2s ease;
+
+                &:hover{
+                    background-color: #fff;
+                    border: 2px solid $bg-gold;
+                    color: #000;
+        
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+    #intro {
+        width: 100%;
+        padding-top: 85px;
+        background-image: url("../../assets/image/bg-intro-dark.svg");
+        background-repeat: no-repeat;
+        background-position: 70% 130px;
+        background-color: #09111B;
+        min-height: 589px;
+    
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 165px;
+            
+    
+            img{
+                position: relative;
+                top: 40px;
+                left: -60px;
+            }
+    
+            &__text {
+                min-width: 325px;
+                h1 {
+                    font-family: 'lato-bold';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 56px;
+                    letter-spacing: -0.8px;
+                    color:#fff;
+    
+                    span {
+                        color: $bg-gold;
+                        display: block;
+                    }
+                }
+    
+                p {
+                    font-family: 'lato-semibold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: -0.36px;
+                    color: #ffff;
+                }
+    
+    
+                button {
+                    margin-top: 70px;
+                    padding: 13px 47.8px 13px 46px;
+                    background: #BA8D5B;
+                    border-radius: 100px;
+                    color:#fff;
+                    border:none;
+                    border: 2px solid transparent;
+                    font-family: 'lato-bold';
+                    font-size: 16px;
+                    transition: all 0.2s ease;
+    
+                    &:hover{
+                        background-color: #fff;
+                        border: 2px solid $bg-gold;
+                        color: #000;
+            
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme:light) {
+
+    #intro {
+        width: 100%;
+        padding-top: 85px;
+        background-image: url("../../assets/image/bg-hero-illustration.1d0afd66.svg.svg");
+        background-repeat: no-repeat;
+        background-position: 70% 130px;
+        background-color: #F1F0EE;
+        min-height: 589px;
+    
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 165px;
+            
+    
+            img{
+                position: relative;
+                top: 40px;
+                left: -60px;
+            }
+    
+            &__text {
+                min-width: 325px;
+                h1 {
+                    font-family: 'lato-bold';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 56px;
+                    letter-spacing: -0.8px;
+    
+                    span {
+                        color: $bg-gold;
+                        display: block;
+                    }
+                }
+    
+                p {
+                    font-family: 'lato-semibold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: -0.36px;
+                    color: #607987;
+                }
+    
+    
+                button {
+                    margin-top: 70px;
+                    padding: 13px 47.8px 13px 46px;
+                    background: #BA8D5B;
+                    border-radius: 100px;
+                    color:#fff;
+                    border:none;
+                    border: 2px solid transparent;
+                    font-family: 'lato-bold';
+                    font-size: 16px;
+                    transition: all 0.2s ease;
+    
+                    &:hover{
+                        background-color: #fff;
+                        border: 2px solid $bg-gold;
+                        color: #000;
+            
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: lato-semibold;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #09111B;
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme:light) {
+
+    body {
+        background: #fff;
+        color: #09111B;
+    }
+
+}

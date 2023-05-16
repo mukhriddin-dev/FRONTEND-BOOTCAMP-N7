@@ -1,0 +1,6 @@
+#about{
+    background-color: coral;
+    background-image: url("https://picsum.photos/id/161/1800/1200");
+    @extend %coverImg;
+    @extend %center;
+}

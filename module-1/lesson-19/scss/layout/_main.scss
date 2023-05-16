@@ -1,0 +1,16 @@
+#main{
+    background-color: coral;
+    background-image: url("https://picsum.photos/id/124/1800/1200");
+    @extend %coverImg;
+    @extend %center;
+}
+
+@media only screen and (max-width:375px){
+    #main{
+        background-color: coral;
+        background-image: url("https://picsum.photos/id/122/1800/1200");
+        @extend %coverImg;
+        background-size: contain;
+        @extend %center;
+    }
+}
