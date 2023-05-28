@@ -1,0 +1,11 @@
+.box{
+    padding: 24px;
+    background-color: azure;
+    color:red
+}
+
+.item{
+    padding: 24px;
+    background-color: rgb(0, 25, 136);
+    color:rgb(255, 255, 255)
+}
