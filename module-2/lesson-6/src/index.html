@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- build css -->
-    <link rel="stylesheet" href="./dist/output.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="./assets/styles/main.css">
-    <title>RWD IN TAILWINDCSS</title>
-</head>
-
-<body >
-
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- build css -->
+        <link
+        rel="stylesheet" href="./dist/output.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="./assets/styles/main.css">
+        <!-- icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
-    
-</body>
+
+        <title>RWD IN TAILWINDCSS</title>
+    </head>
+
+    <body>
+
+<header class="bg-cyan-600 md:bg-indigo-100">
+    <div class="container mx-auto">
+        <nav class="flex w-full justify-between h-[70px] items-center">
+
+            <a href="#" class="logo text-indigo-700 md:text-blue-400 font-semibold text-3xl">TailwindCSS</a>
+
+            <ul class="hidden md:flex uppercase md:gap-12 lg:gap-24 ">
+
+                <li class="md:text-blue-500 decoration-blue-800 hover:underline"><a href="#">Home</a></li>
+                <li class="md:text-blue-500 decoration-blue-800 hover:underline"><a href="#">About</a></li>
+                <li class="md:text-blue-500 decoration-blue-800 hover:underline"><a href="#">Service</a></li>
+                <li class="md:text-blue-500 decoration-blue-800 hover:underline"><a href="#">Blog</a></li>
+                <li class="md:text-blue-500 decoration-blue-800 hover:underline"><a href="#">Contact</a></li>
+            </ul>
+
+            <i class='bx bx-menu text-3xl md:hidden block'></i>
+
+    </div>
+</header>
+
+
+    </body>
 </html>
