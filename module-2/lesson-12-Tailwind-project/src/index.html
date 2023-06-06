@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/images/logo.svg">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- build css -->
+        <link rel="stylesheet" href="../dist/output.css">
+
+        <title>Prabot</title>
+    </head>
+    <body style="font-family: 'Roboto' ">
+
+        <header class="w-full relative top-[77px]">
+            <div class="container mx-auto px-5">
+                <nav class="flex justify-between w-full h-[110px]  items-center">
+
+                    <a href="#"><img src="./assets/images/logo.svg" alt="logo" class="hover:rotate-[360deg] duration-300"></a>
+
+                    <ul class="flex gap-x-[106px] items-center">
+                        <li>
+                            <a href="#" class="text-[#959595] hover:text-black">Daftar Akun</a>
+                        </li>
+
+                        <li>
+                            <button class="bg-[#7AB674] w-[69px] hover:bg-white active:bg-green-700 active:text-white hover:border-2 border-green-400 hover:text-green-600 duration-200  h-[69px] grid place-content-center text-white">
+                                <i data-feather="shopping-bag"></i>
+                            </button>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="intro" class=" pt-[292px] bg-[url('./assets/images/leaves.png')] bg-no-repeat">
+
+                <div class="container mx-auto px-5">
+
+                    <div class="flex items-start gap-x-[100px]">
+
+                        <div class="p-2 pt-6 w-[497px] ">
+ 
+                            <h1 class="text-[96px] font-medium leading-[95%] mb-[34px]">Alfonso Wardrobe
+                                <br><span class="font-black text-[#7AB674]">2 Doors</span>
+                            </h1>
+
+                            <p class="text-[#959595] text-lg mb-[42px]">Kini hadir sebagai lemari pakaian dengan desain yang minimalis serta cenderung terkesan elegan.
+                            </p>
+
+                            <button class="flex bg-[#7AB674] py-5 px-[35px] text-white font-black text-2xl items-center gap-x-[37px]">
+                                <span>BELI SEKARANG</span>
+                                <i data-feather="arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="p-2 flex items-start   x -translate-y-24 gap-x-[51px]">
+
+                            <img src="./assets/images/images.png"  alt="iamge">
+
+                            <ul class="text-[#959595] mt-[233px]">
+                                <li>
+                                    <h3 class="font-bold text-2xl mb-[21px] text-black">Ukuran <br> Produk</h3>
+                                </li>
+                                <li>
+                                    <p>Panjang</p>
+                                    <h3 class="text-[#7AB674] text-[32px] font-black">85 cm</h3>
+                                </li>
+                                <li>
+                                    <p>Lebar</p>
+                                    <h3 class="text-[#7AB674] text-[32px] font-black">56 cm</h3>
+                                </li>
+                                <li>
+                                    <p>Tinggi</p>
+                                    <h3 class="text-[#7AB674] text-[32px] font-black">180 cm</h3>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+    <script>
+        feather.replace()
+    </script>
+</html>

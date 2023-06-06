@@ -1,0 +1,14 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.card-image{
+  filter: drop-shadow(-10px 93px 37px silver);
+}
+
+.speaker{
+    background-image: url("../icons/Group\ 4.svg");
+    background-repeat: no-repeat;
+    background-position: -60px 0;
+}
+

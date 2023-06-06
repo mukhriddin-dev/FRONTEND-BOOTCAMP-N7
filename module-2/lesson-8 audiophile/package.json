@@ -1,0 +1,14 @@
+{
+  "name": "starter-tw",
+  "version": "1.0.0",
+  "description": "tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "author": "Mr WEB",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
