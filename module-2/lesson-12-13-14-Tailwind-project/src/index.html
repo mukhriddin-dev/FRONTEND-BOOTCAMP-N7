@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
         <!-- build css -->
         <link rel="stylesheet" href="../dist/output.css">
+        <link rel="stylesheet" href="./style.css">
 
         <title>Prabot</title>
     </head>
@@ -43,14 +44,14 @@
 
         <main>
 
-            <section id="intro" class=" pt-[292px] bg-[url('./assets/images/leaves.png')] bg-no-repeat">
+            <section id="intro" class="pt-[250px] bg-[url('./assets/images/leaves.png')] bg-no-repeat relative z-30">
 
                 <div class="container mx-auto px-5">
 
-                    <div class="flex items-start gap-x-[100px]">
+                    <div class="flex items-start gap-x-[100px] ">
 
-                        <div class="p-2 pt-6 w-[497px] ">
- 
+                        <div class="p-2  w-[497px] ">
+
                             <h1 class="text-[96px] font-medium leading-[95%] mb-[34px]">Alfonso Wardrobe
                                 <br><span class="font-black text-[#7AB674]">2 Doors</span>
                             </h1>
@@ -65,13 +66,15 @@
 
                         </div>
 
-                        <div class="p-2 flex items-start   x -translate-y-24 gap-x-[51px]">
+                        <div class="p-2 flex items-start  -translate-y-12 gap-x-[51px]">
 
-                            <img src="./assets/images/images.png"  alt="iamge">
+                            <img src="./assets/images/images.png" alt="iamge">
 
                             <ul class="text-[#959595] mt-[233px]">
                                 <li>
-                                    <h3 class="font-bold text-2xl mb-[21px] text-black">Ukuran <br> Produk</h3>
+                                    <h3 class="font-bold text-2xl mb-[21px] text-black">Ukuran
+                                        <br>
+                                        Produk</h3>
                                 </li>
                                 <li>
                                     <p>Panjang</p>
@@ -89,8 +92,49 @@
                         </div>
 
                     </div>
+
                 </div>
+
             </section>
+
+            <section id="intro-bottom" class="relative -top-[350px]">
+
+                <div class="bg flex  h-[583px]">
+                    <div class="left-bg w-[25%] h-[100%] "></div>
+                    <div class="right-bg w-[75%] bg-[#B09B8C] h-[100%]">
+                        <img src="./assets/images/image1_shadow.svg" alt="shadow" class="absolute z-40 left-[36%] top-[27%]">
+                        <img src="./assets/images/image1_controller.svg" alt="controller" class="absolute  z-50 left-[51%] top-[43%]">
+                    </div>
+
+                </div>
+
+                <div class="absolute top-0 w-full">
+                    <div class="mx-auto container   px-5">
+                       <div class="flex">
+
+                        <div class="left-wrap">
+                            <div class="line h-[412px] w-1 bg-[#c9c9c9] mt-[66px]">
+                                <span class="w-2 bg-[#B09B8C] h-[49px] block relative top-[46px]">
+                                </span>
+                            </div>
+    
+                            <h2 class="font-bold text-xl vertical-text">
+                                 <span class="text-green-300">01</span>
+                                 <span>/04</span> 
+                            </h2>
+
+                        </div>
+
+                        <div class="right-wrap">
+                         
+                        </div>
+                       
+                    </div>
+                    </div>
+                </div>
+
+            </section>
+
         </main>
 
     </body>
