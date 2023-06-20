@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(255, 255, 255);
+  /* background-image: url("https://picsum.photos/id/450/1900/1080"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  /* pointer-events: none !important; */
+  /* cursor: none !important; */
+}
+
+.circle {
+  border: 1px solid #000c59;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  z-index: 122;
+  transition: all 0.1s ease;
+  /* pointer-events: none; */
+}
+
+.dot {
+  background-color: rgb(236, 167, 20);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  /* transition: all 0.1s ease; */
+  transform: translate(-50%, -50%);
+  position: fixed;
+  /* pointer-events: none; */
+}
+
