@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    height: 70px;
+}
+
+a{
+    text-decoration: none !important;
+    color:red;
+}
+
+#intro{
+    background-image: url("https://picsum.photos/id/299/3450/3480");
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position:  center;
+}
+
+#about{
+    background-image: url("https://picsum.photos/id/499/3450/3480");
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position:  center;
+}
+
+#contact{
+    background-image: url("https://picsum.photos/id/469/3450/3480");
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position:  center;
+}
+
+.topheader{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:teal !important;
+    transition: all 0.5s ease;
+}
+
+.box{
+    transition: all 0.7s ease;
+}
+
+/* .about{
+    opacity: 0.3;
+    transform: translate(0,-400px)  scale(0.5);
+    transition: all 1s ease;
+}
+
+.box:nth-child(1){
+    transform: translateX(-150%);
+    opacity: 0;
+}
+
+.box:nth-child(2){
+    transform: translateY(-150%);
+    opacity: 0;
+}
+
+.box:nth-child(3){
+    transform: translateX(150%);
+    opacity: 0;
+} */
+
+
+
+.load-wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:#ffffff87;
+    backdrop-filter: blur(133px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999999999;
+    display: grid;
+    place-items: center;
+}
+
+
+.loader {
+    width: 106px;
+    height: 56px;
+    display: block;
+    margin: 30px auto;
+    background-image: linear-gradient(red 50px, transparent 0), linear-gradient(red 50px, transparent 0), linear-gradient(red 50px, transparent 0), linear-gradient(red 50px, transparent 0), radial-gradient(circle 14px, red 100%, transparent 0);
+    background-size: 48px 15px , 15px 35px, 15px 35px, 25px 15px, 28px 28px;
+    background-position: 25px 5px, 58px 20px, 25px 17px, 2px 37px, 76px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: 6px solid red;
+    border-radius: 50%;
+    left: -45px;
+    top: -10px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(red 64px, transparent 0), linear-gradient(red 66px, transparent 0), radial-gradient(circle 4px, red 100%, transparent 0);
+    background-size: 40px 1px , 1px 40px, 8px 8px;
+    background-position: center center;
+    box-sizing: border-box;
+    animation: rotation 0.3s linear infinite;
+  }
+  .loader::before {
+    left: 25px;
+    top: 60px;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 

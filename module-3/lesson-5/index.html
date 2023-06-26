@@ -3,10 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boootstarap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- main css -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>lesson-5</title>
 </head>
 <body>
+
+    <div class="load-wrapper">
+        <span class="loader"></span>
+    </div>
+
+    <header class="bg-danger position-fixed w-100 top-0 z-3">
+        <div class="container">
+            <nav class="d-flex align-items-center justify-content-between">
+                <a href="#" class="logo">LOGO</a>
+                <ul class="d-flex gap-xl-4 align-items-center mt-3">
+                    <li class="list-unstyled"><a href="#">Home</a></li>
+                    <li class="list-unstyled"><a href="#">About</a></li>
+                    <li class="list-unstyled"><a href="#">Service</a></li>
+                    <li class="list-unstyled"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <main>
+    <section id="intro">
+       <div class="container">
+         <div class="wrapper d-flex align-items-center p-5 justify-content-between">
+           
+            <img src="https://picsum.photos/id/198/550/565" alt="rasm" class="right rounded-5">
+         </div>
+       </div> 
+    </section>
+
+    <section id="about">
+        <div class="container p-5">
+            <h1 class="text-center about">
+                About
+            </h1>
+            <div class="d-flex">
+                <div class="box bg-warning m-3" data-aos="flip-left">
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quis dolore nam ab dicta, vel magni sed voluptates error reiciendis numquam corrupti. Saepe minima, doloremque quos exercitationem vero voluptatibus eos esse tempora ad harum sint eum. Deleniti, est optio. Sint laborum exercitationem distinctio esse placeat, vitae ratione mollitia perferendis, similique, quas alias omnis temporibus nostrum rerum veritatis sequi dolore labore debitis quasi. Dignissimos, sapiente quis. Assumenda optio facere distinctio quidem exercitationem nulla sapiente molestias maiores voluptas? Nobis sit laboriosam deleniti facere alias inventore ipsa blanditiis? Necessitatibus consequatur, sequi ratione rem exercitationem quod velit. Facere expedita ducimus et ipsa, libero doloribus ratione ea quidem perspiciatis accusantium dolorem atque architecto eum voluptatem, fugit nihil vitae a molestias ab inventore enim! Sit, reprehenderit!</p>
+                </div>
+                <div class="box bg-warning m-3"  data-aos="zoom-in">
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quis dolore nam ab dicta, vel magni sed voluptates error reiciendis numquam corrupti. Saepe minima, doloremque quos exercitationem vero voluptatibus eos esse tempora ad harum sint eum. Deleniti, est optio. Sint laborum exercitationem distinctio esse placeat, vitae ratione mollitia perferendis, similique, quas alias omnis temporibus nostrum rerum veritatis sequi dolore labore debitis quasi. Dignissimos, sapiente quis. Assumenda optio facere distinctio quidem exercitationem nulla sapiente molestias maiores voluptas? Nobis sit laboriosam deleniti facere alias inventore ipsa blanditiis? Necessitatibus consequatur, sequi ratione rem exercitationem quod velit. Facere expedita ducimus et ipsa, libero doloribus ratione ea quidem perspiciatis accusantium dolorem atque architecto eum voluptatem, fugit nihil vitae a molestias ab inventore enim! Sit, reprehenderit!</p>
+                </div>
+                <div class="box bg-warning m-3" data-aos="flip-right">
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quis dolore nam ab dicta, vel magni sed voluptates error reiciendis numquam corrupti. Saepe minima, doloremque quos exercitationem vero voluptatibus eos esse tempora ad harum sint eum. Deleniti, est optio. Sint laborum exercitationem distinctio esse placeat, vitae ratione mollitia perferendis, similique, quas alias omnis temporibus nostrum rerum veritatis sequi dolore labore debitis quasi. Dignissimos, sapiente quis. Assumenda optio facere distinctio quidem exercitationem nulla sapiente molestias maiores voluptas? Nobis sit laboriosam deleniti facere alias inventore ipsa blanditiis? Necessitatibus consequatur, sequi ratione rem exercitationem quod velit. Facere expedita ducimus et ipsa, libero doloribus ratione ea quidem perspiciatis accusantium dolorem atque architecto eum voluptatem, fugit nihil vitae a molestias ab inventore enim! Sit, reprehenderit!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container p-5">
+            <h1 class="text-center">
+                Contact
+            </h1>
+            <div class="d-flex">
+                <div class="box  bg-warning m-3 " data-aos="fade-left">
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quis dolore nam ab dicta, vel magni sed voluptates error reiciendis numquam corrupti. Saepe minima, doloremque quos exercitationem vero voluptatibus eos esse tempora ad harum sint eum. Deleniti, est optio. Sint laborum exercitationem distinctio esse placeat, vitae ratione mollitia perferendis, similique, quas alias omnis temporibus nostrum rerum veritatis sequi dolore labore debitis quasi. Dignissimos, sapiente quis. Assumenda optio facere distinctio quidem exercitationem nulla sapiente molestias maiores voluptas? Nobis sit laboriosam deleniti facere alias inventore ipsa blanditiis? Necessitatibus consequatur, sequi ratione rem exercitationem quod velit. Facere expedita ducimus et ipsa, libero doloribus ratione ea quidem perspiciatis accusantium dolorem atque architecto eum voluptatem, fugit nihil vitae a molestias ab inventore enim! Sit, reprehenderit!</p>
+                </div>
+                <div class="box  bg-warning m-3" data-aos="fade-right">
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quis dolore nam ab dicta, vel magni sed voluptates error reiciendis numquam corrupti. Saepe minima, doloremque quos exercitationem vero voluptatibus eos esse tempora ad harum sint eum. Deleniti, est optio. Sint laborum exercitationem distinctio esse placeat, vitae ratione mollitia perferendis, similique, quas alias omnis temporibus nostrum rerum veritatis sequi dolore labore debitis quasi. Dignissimos, sapiente quis. Assumenda optio facere distinctio quidem exercitationem nulla sapiente molestias maiores voluptas? Nobis sit laboriosam deleniti facere alias inventore ipsa blanditiis? Necessitatibus consequatur, sequi ratione rem exercitationem quod velit. Facere expedita ducimus et ipsa, libero doloribus ratione ea quidem perspiciatis accusantium dolorem atque architecto eum voluptatem, fugit nihil vitae a molestias ab inventore enim! Sit, reprehenderit!</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   </main>
+
+    <footer class="bg-danger">
+        <div class="container p-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <p class="text-center text-white fs-3">2023</p>
+            </div>
+        </div>
+    </footer>
     
+
+
 </body>
-<script src="./app.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+<script>
+    // AOS.init();
+</script>
+<script src="./dom.js"></script>
 </html>
