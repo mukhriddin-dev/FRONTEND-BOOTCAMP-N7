@@ -1,0 +1,20 @@
+.box{
+    padding: 60px;
+    background-color:aquamarine;
+    width: 100px;
+}
+.box_wrapper{
+    padding: 10px;
+    background-color:orange;
+}
+
+.item{
+    padding: 30px;
+    background-color:red;
+    margin: 4px;
+}
+
+
+.card{
+    width: 300px;
+}
