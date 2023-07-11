@@ -19,7 +19,9 @@
 
 // const letter=letters();
 
-// // console.log(letter.throw(new Error("Nimadur xato")));
+// console.log(letter.throw(new Error("Nimadur xato")));
+
+// console.log(letter.next());
 // console.log(letter.next());
 // console.log(letter.next());
 // console.log(letter.next());
@@ -39,17 +41,20 @@
 // /// Curriyng  functions
 
 
-// function funcA(a){
-//     return function(b){
-//         return function(c){
-//             return function(d){
-//                 return a+b+c+d;
+// function funcA(a) {
+//     a*=10
+//     return function (b) {
+//         b += 100;
+//         return function (c) {
+//             c-=5
+//             return function (d) {
+//                 return a + b + c + d;
 //             }
 //         }
 //     }
 // }
 
-// console.log(funcA(1)(2)(3)(4))
+// console.log(funcA(1)(10)(5)(4))
 
 
 // const curriedFunc=a=>b=>c=>d=>a+b+c+d;
@@ -63,7 +68,7 @@
 // const funcD=a=>a-2;
 // const funcS=a=>a*4;
 
-// console.log(funcC(funcD(funcS(10)))) // 48
+// console.log(funcD(funcS(funcC(10)))) // 48
 
 
 // // pure function
@@ -86,19 +91,24 @@
 // console.log( impureFun(10))
 
 
-// Closure 
+// Closure
 
 // let num = 11111;
 
 // function ABS() {
 
-  
-  
+//    let sum=10
+
 //     function a(){
-//         console.log(num)
+
+
+//         console.log(num+sum)
+
+
 //     }
-    
-//     a()x
+
+//     a()
+
 // }
 
 // ABS()
