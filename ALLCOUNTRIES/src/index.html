@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- build css -->
+        <link rel="stylesheet" href="./dist/output.css">
+        <title>All countries</title>
+    </head>
+
+    <body class="bg-[#FAFAFA] dark:bg-[#202C36]">
+        <header class="shadow-lg dark:bg-[#2B3844]">
+            <div class="container mx-auto px-5">
+                <nav class="h-[80px] flex justify-between items-center">
+                    <a href="#" class="logo text-2xl font-extrabold dark:text-white">Where in the world?</a>
+                    <div class="mode dark:text-white">
+                        <input type="checkbox">
+                        <span>Dark Mode</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+
+            <section id="filters" class="my-12">
+                <div class="container mx-auto px-5">
+                    <div class="flex items-start  md:justify-between md:items-center flex-col md:flex-row">
+
+                        <input id="search" type="search" placeholder="Search for a country…" class="shadow dark:bg-[#2B3844] dark:text-white h-[56px] mb-[40px] md:mb-0 w-full md:w-[480px] p-[18px]">
+
+                        <select id="region" class="h-[56px] w-[200px] px-[24px] py-[18px] dark:bg-[#2B3844]  dark:text-white">
+                            <option disabled selected>Filter by Region</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="countries">
+                <div class="container mx-auto px-5">
+                    <div id="wrapper" class="grid grid-cols-1  justify-items-center   md:grid-cols-2 lg:grid-cols-4 gap-[73px]">
+
+
+              
+
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <!-- utils js -->
+    <script src="./utils/utils.js"></script>
+    <!-- main js -->
+    <script src="./script.js"></script>
+</html>
